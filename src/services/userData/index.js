@@ -4,7 +4,6 @@
 // signOutUser() => sign out an user
 
 import React, { createContext, useState } from "react";
-import { personImageUrl } from "../mockData";
 import { auth } from "../firebase/firebaseInit";
 
 export const UserContext = createContext();
@@ -21,7 +20,8 @@ const UserContextProvider = ({ children }) => {
         user
           .updateProfile({
             displayName: name,
-            photoURL: personImageUrl[Math.floor(Math.random() * 6)],
+            photoURL:
+              "https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144847501.jpg",
           })
           .then(() => {
             setUserData(user);

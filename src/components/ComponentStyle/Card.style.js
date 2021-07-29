@@ -7,6 +7,8 @@ export const Container = styled.Pressable`
   overflow: hidden;
   margin: 18px;
   padding-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 `;
 
 export const Profile = styled(Chip)`

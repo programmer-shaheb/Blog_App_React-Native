@@ -19,8 +19,8 @@ const HomeScreen = ({ navigation }) => {
           />
         </Header>
         <Blogs navigation={navigation} />
-        <StatusBar style="auto" backgroundColor="white" />
       </Container>
+      <StatusBar style="auto" backgroundColor="white" />
     </SafeArea>
   );
 };

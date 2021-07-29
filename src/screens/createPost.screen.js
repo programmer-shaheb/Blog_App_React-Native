@@ -19,7 +19,7 @@ const CreatePostScreen = ({ navigation }) => {
   const { userData } = useContext(UserContext);
   const { displayName, email, photoURL } = userData;
 
-  const value = `Hi ${displayName.toUpperCase()}, What's On Your Mind..!`;
+  const value = `Hi ${displayName}, What's On Your Mind..!`;
 
   if (isSuccess) {
     return (
