@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components/native";
+import { Container } from "./ComponentStyle/AppAvatar.style";
 import { Avatar } from "react-native-paper";
 
 const AppAvatar = ({ imageUri, onPress }) => {
@@ -14,14 +14,3 @@ const AppAvatar = ({ imageUri, onPress }) => {
   );
 };
 export default AppAvatar;
-
-const Container = styled.TouchableOpacity`
-  width: 70px;
-  height: 70px;
-  border-radius: 35px;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #ffebf1;
-  elevation: 5;
-`;

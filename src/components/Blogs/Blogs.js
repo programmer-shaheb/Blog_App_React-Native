@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from "react";
-import { FlatList, ScrollView } from "react-native";
-import styled from "styled-components/native";
+import { FlatList } from "react-native";
 import { BlogContext } from "../../services/BlogData";
 import Card from "./Card";
+import { Container, Title } from "../ComponentStyle/Blogs.style";
 
 const Blogs = ({ navigation }) => {
   const { getAllBlogs, allBlogs, isSuccess } = useContext(BlogContext);
@@ -29,12 +29,3 @@ const Blogs = ({ navigation }) => {
   );
 };
 export default Blogs;
-
-const Container = styled.View``;
-const Title = styled.Text`
-  font-size: 25px;
-  color: #061649;
-  padding-bottom: 10px;
-  margin-left: 20px;
-  text-align: center;
-`;

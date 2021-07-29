@@ -7,6 +7,7 @@ import HomeScreen from "../screens/home.screen";
 import ReadingScreen from "../screens/reading.screen";
 
 const Stack = createStackNavigator();
+
 const HomeRoute = () => {
   return (
     <Stack.Navigator

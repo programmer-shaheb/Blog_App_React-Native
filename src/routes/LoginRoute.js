@@ -7,6 +7,7 @@ import LoginScreen from "../screens/login.screen";
 import RegisterScreen from "../screens/register.screen";
 
 const Stack = createStackNavigator();
+
 const LoginRoute = () => {
   return (
     <Stack.Navigator

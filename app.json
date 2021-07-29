@@ -21,14 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "All fancy blogger is welcome. \nJust write!\nno worries about publishing",
-    "githubUrl": "https://github.com/FahimMontasir/blogosphere"
+    "description": "This app is only for testing purpose",
+    "githubUrl": "https://github.com/programmer-shaheb/Blog_App_React-Native"
   }
 }

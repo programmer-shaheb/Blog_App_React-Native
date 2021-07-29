@@ -10,6 +10,7 @@ import HomeRoute from "./HomeRoute";
 import BlogContextProvider from "../services/BlogData";
 
 const Tab = createBottomTabNavigator();
+
 const AppRoute = () => {
   return (
     <BlogContextProvider>
